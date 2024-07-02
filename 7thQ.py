@@ -6,4 +6,4 @@ def calculate_sum(cardPoints, k):
     m = 0
     for i in range(k):
         m = max(m,sum(new_lst[i:i+k]))
-    print(m)
+    return m
